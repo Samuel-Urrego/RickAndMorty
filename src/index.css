@@ -326,3 +326,55 @@ nav a:hover {
   width: 700px;
   position: relative;
 }
+
+/* Home Page Styles */
+.home-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, rgba(178, 102, 255, 0.1), rgba(178, 102, 255, 0.05));
+}
+
+.home-title {
+  text-align: center;
+  color: rgba(178, 102, 255, 0.9);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px rgba(178, 102, 255, 0.5);
+  animation: glow-purple 1.5s ease-in-out infinite alternate;
+}
+
+.character-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.character-card {
+  text-decoration: none;
+  color: inherit;
+  background: rgba(178, 102, 255, 0.1);
+  border-radius: 15px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(178, 102, 255, 0.3);
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.character-card h2 {
+  color: rgba(178, 102, 255, 0.9);
+  font-size: 1.5rem;
+  margin: 0;
+  text-shadow: 0 0 5px rgba(178, 102, 255, 0.5);
+}

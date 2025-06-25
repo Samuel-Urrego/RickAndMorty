@@ -5,7 +5,7 @@ const Morty = () => {
   return (
     <>
       <section className='Title'>
-        <h1 className='Title-morty'>Morty Sanchez</h1>
+        <h1 className='Title-morty'>Morty Smith</h1>
         <img src={mortyImage} alt="Morty Sanchez" className='morty-image' />
       </section>
       <section className='Text-morty'>
