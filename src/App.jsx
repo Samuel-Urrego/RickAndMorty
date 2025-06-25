@@ -7,16 +7,16 @@ const App = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className='home-link'>Home</Link>
           </li>
           <li>
-            <Link to="/Rick">Rick</Link>
+            <Link to="/Rick" className='rick-link'>Rick</Link>
           </li>
           <li>
-            <Link to="/Morty">Morty</Link>
+            <Link to="/Morty" className='morty-link'>Morty</Link>
           </li>
           <li>
-            <Link to="/Meeseeks">Meeseeks</Link>
+            <Link to="/Meeseeks" className='meeseeks-link'>Meeseeks</Link>
           </li>
         </ul>
       </nav>
